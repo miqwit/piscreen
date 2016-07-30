@@ -1,0 +1,67 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/superhero-bootstrap.min.css">
+        <link rel='stylesheet' href='css/font-awesome.min.css' />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <ul class="nav navbar-nav navbar-right">
+                <li id="dateandtime"><a href="#" panel="almanac">Vendredi 28 juillet 2016 - 15:06<br/>St. Martin</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container-fluid">
+            <div id="content">
+                <section id="sidebar" class="navbar-inverse col-md-2">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#Meteo" panel="meteo"><span class="fa fa-lg fa-sun-o"></span>&nbsp;&nbsp;&nbsp;Météo</a></li>
+                        <li><a href="#pollution" panel="pollution"><span class="fa fa-lg fa-recycle"></span>&nbsp;&nbsp;&nbsp;Pollution</a></li>
+                        <li><a href="#sport" panel="sport"><span class="fa fa-lg fa-bicycle"></span>&nbsp;&nbsp;&nbsp;Sport</a></li>
+                        <li><a href="#trafic" panel="trafic"><span class="fa fa-lg fa-car"></span>&nbsp;&nbsp;&nbsp;Trafic</a></li>
+                        <li><a href="#calendar" panel="calendar"><span class="fa fa-lg fa-calendar"></span>&nbsp;&nbsp;&nbsp;Agenda</a></li>
+                    </ul>
+                </section>
+
+                <section id="main" class="col-md-10">
+                    
+                    <div id="panel-meteo">
+                        <div id="div_widget_meteo_paris"><!-- Widget2 Meteo copyright 2016 - Modification et reproduction interdite --><span id="lien_widget_meteo_paris" style="display:block;height:0;font-size:0"><a href="http://www.meteo-paris.com">M&eacute;t&eacute;o Paris</a></span><script type="text/javascript" src="http://www.meteo-paris.com/widget3/loader/6/24/000000/version2/0b0f4c/zzzzzz/000/000/000/1/0__0__0__1"></script></div>
+                    </div>
+                    
+                    <div id="panel-sport">
+                        Sport
+                    </div>
+                    
+                    <div id="panel-pollution">
+                        Pollution
+                    </div>
+                    
+                    <div id="panel-trafic">
+                        Trafic
+                    </div>
+                    
+                    <div id="panel-calendar">
+                        Calendar
+                    </div>
+                    
+                    <div id="panel-almanac">
+                        Almanac
+                    </div>
+                    
+                </section>
+            </div>
+            
+        </div>
+        
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/piscreen.js" type="text/javascript"></script>
+    </body>
+    
+</html>
